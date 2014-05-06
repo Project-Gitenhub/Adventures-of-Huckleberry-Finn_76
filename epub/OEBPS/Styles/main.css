@@ -1,0 +1,180 @@
+/* Wrap text around chapter titles and small sideline images: */
+@import url("../Styles/wrap.css");
+@page {  margin: 5pt; }
+@font-face {
+font-family: "JFWildWood";
+src: url("../Fonts/JFWilwod.ttf") format("truetype");
+}
+@font-face {
+font-family: "Mate SC Regular";
+src: url("../Fonts/MateSC-Regular.ttf") format("opentype");
+}
+
+h2 {
+font-family: "JFWildWood", serif;
+text-indent: 0;
+text-align: center;
+font-weight: bold;
+font-size: 150%;
+margin: 1em 0;
+}
+
+h2.chapter {
+display: none;
+}
+
+div.chapter-head {
+width: 100%;
+page-break-inside: avoid;
+}
+h2 + p, 
+h2 + div + p, 
+h2 + div + div + p, 
+div.chapter-head + p,
+div.picture +p {
+text-indent: 0;
+}
+p {
+text-indent: 1.25em;
+margin-top: .3em;
+margin-bottom: .3em;
+}
+p.letter {
+margin: .3em 1.5em;
+text-indent: 0;
+text-align: justify;
+font-size: 95%;
+font-style: italic;
+}
+p.letter em {
+font-style: normal;
+}
+.signature {
+text-indent: 0;
+margin-left: 40%;
+font-family: "Mate SC Regular", serif;
+/*font-size: 80%;*/
+}
+.centre {
+margin: .5em .1em;
+text-indent: 0;
+text-align: center;
+}
+p.info {
+text-indent: 0;
+text-align: justify;
+margin-top: .65em;
+}
+.scnbrk { 
+margin: 1.5em 42% ;
+width: 16%;
+border-top: double 3px;
+}
+
+div.blokbrk {
+margin: 1.25em 1em;
+}
+div.tpage {
+margin: 4em 1em 0em 1em;
+font-family: serif;
+}
+
+blockquote {
+margin: 1.5em ;
+}
+div.poem {
+margin: 1.5em 2em;
+}
+div.stanza {
+margin-top: 1em;
+margin-bottom: 0em;
+padding: 0;
+text-indent: 0;
+page-break-inside: avoid;
+font-size: .95em;
+line-height: 130%;
+}
+p.vers {
+margin:.0em .5em .0em .5em;
+padding-left: 3em;
+text-indent: -3em;
+text-align: left;
+}
+p.vers2 {
+margin: .0em .5em .0em 2.5em;
+padding-left: 3em;
+text-indent: -3em;
+text-align: left;
+}
+p.title {
+text-indent: 0;
+text-align: center;
+font-size: 80%;
+}
+span.first-letter {
+font-family: "JFWildWood", serif;
+font-size: 1.75em;
+line-height: 90%;
+}
+.smcaps {
+font-family: "Mate SC Regular", serif;
+font-size: 110%;
+}
+.smfont {font-size: 80%;}
+.midfont {font-size: 125%;}
+.lgfont {font-size: 140%;}
+.hugefont {font-size: 165%}
+
+.disp0 {display: none;}
+.ind0 {text-indent: 0;}
+
+em {
+font-style: italic;
+}
+em em {
+font-style: normal;
+}
+
+div.toc {
+text-align: left;
+margin: 1em .5em;
+}
+div.toc p {
+margin: .75em 0 0 2em;
+text-indent: -2em;
+}
+div.toc a {
+font-size: 80%;
+}
+div.picture a {
+}
+h2 a,
+p a {
+color: inherit;
+}
+a.chLink {
+text-decoration: none;
+}
+
+div.illustration {
+text-indent: 0;
+text-align: center;
+margin: 1em 0;
+clear: both;
+page-break-inside: avoid;
+}
+img.imgcenter {
+text-indent: 0;
+text-align: center;
+width: 100%;
+max-width: 600px;
+}
+.logo {
+width: 10%;
+max-width: 60px;
+min-width: 40px;
+margin: .75em;
+text-indent: 0em;
+text-align: center;
+}
+

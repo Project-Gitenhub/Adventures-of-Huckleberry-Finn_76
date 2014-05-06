@@ -1,0 +1,200 @@
+div.chapter-head img {
+  width: 100%;
+  max-width: 600px;
+}
+div.chapter-head div {
+  text-align: left;
+  margin: 0 3px 0 0;
+}
+div.chapter-head div.picture {
+  width: 100%;
+  max-width: 600px;
+  height: 4em;
+  margin: 0 0 -3em 0; 
+  overflow: visible;
+text-indent: 0;}
+div.picture {text-indent: 0;}
+div.chapter-head div.top,
+div.chapter-head div.bottom {
+  /* hide as much as possible */
+  position: relative;
+  z-index: -1;
+  visibility: hidden;
+  opacity: 0;
+}
+div.chapter-head div.top {
+  float: none;
+  width: 100%;
+  margin-bottom: -1em;
+}
+div.chapter-head div.bottom {
+  float: left;
+  clear: both;
+}
+
+div#ch03 div.bottom,
+div#ch33 div.bottom,
+div#ch41 div.bottom {
+	width: 45.50%; /*273*/
+max-width: 273px;
+}
+div#ch08 div.bottom,
+div#ch12 div.bottom,
+div#ch39 div.bottom {
+	width: 50.00%; /*300*/
+max-width: 300px;
+}
+div#ch02 div.bottom,
+div#ch05 div.bottom,
+div#ch11 div.bottom,
+div#ch25 div.bottom,
+div#ch26 div.bottom,
+div#ch27 div.bottom,
+div#ch34 div.bottom {
+	width: 51.50%; /*309*/
+max-width: 309px;
+}
+div#ch07 div.bottom,
+div#ch14 div.bottom,
+div#ch16 div.bottom,
+div#ch20 div.bottom,
+div#ch29 div.bottom,
+div#ch31 div.bottom {
+	width: 52.00%; /*312*/
+max-width: 312px;
+}
+div#ch01 div.bottom,
+div#ch10 div.bottom,
+div#ch17 div.bottom,
+div#ch18 div.bottom,
+div#ch24 div.bottom,
+div#ch36 div.bottom {
+	width: 53.00%; /*318*/
+max-width: 318px;
+}
+div#ch06 div.bottom,
+div#ch13 div.bottom,
+div#ch19 div.bottom,
+div#ch21 div.bottom,
+div#ch22 div.bottom,
+div#ch30 div.bottom,
+div#ch32 div.bottom,
+div#ch35 div.bottom,
+div#ch37 div.bottom,
+div#ch42 div.bottom {
+	width: 53.50%; /*321*/
+max-width: 321px;
+}
+div#ch23 div.bottom,
+div#ch28 div.bottom,
+div#ch38 div.bottom,
+div#ch43 div.bottom {
+	width: 54.50%; /*327*/
+max-width: 327px;
+}
+div#ch04 div.bottom,
+div#ch09 div.bottom,
+div#ch40 div.bottom {
+	width: 56.00%; /*336*/
+max-width: 336px;
+}
+div#ch15 div.bottom {
+	width: 58.00%; /*348*/
+max-width: 348px;
+}
+
+
+.imgL45 { float: left; 
+margin: 0px;
+width: 45%; /*270*/
+max-width: 270px;
+}
+.imgL50 { float: left; 
+margin: 3px;
+width: 50%; /*300*/
+max-width: 300px;
+}
+.imgL52 { float: left; 
+margin: 0px;
+width: 52%; /*312*/
+max-width: 312px;
+}
+.imgL54 { float: left; 
+margin: 0px;
+width: 54%; /*324*/
+max-width: 324px;
+}
+.imgL55 { float: left; 
+margin: 0px;
+width: 55%; /*330*/
+max-width: 330px;
+}
+.imgL57 { float: left; 
+margin: 0px;
+width: 57%; /*342*/
+max-width: 342px;
+}
+.imgL58 { float: left; 
+margin: 0px;
+width: 58%; /*348*/
+max-width: 348px;
+}
+.imgL60 { float: left; 
+margin: 0px;
+width: 60%; /*360*/
+max-width: 360px;
+}
+.imgL61 { float: left; 
+margin: 0px;
+width: 61%; /*366*/
+max-width: 366px;
+}
+
+
+.imgR45 { float: right; 
+margin: 0px;
+width: 45%; /*270*/
+max-width: 270px;
+}
+.imgR50 { float: right; 
+margin: 3px;
+width: 50%; /*300*/
+max-width: 300px;
+}
+.imgR52 { float: right; 
+margin: 0px;
+width: 52%; /*312*/
+max-width: 312px;
+}
+.imgR54 { float: right; 
+margin: 0px;
+width: 54%; /*324*/
+max-width: 324px;
+}
+.imgR55 { float: right; 
+margin: 0px;
+width: 55%; /*330*/
+max-width: 330px;
+}
+.imgR57 { float: right; 
+margin: 0px;
+width: 57%; /*342*/
+max-width: 342px;
+}
+.imgR58 { float: right; 
+margin: 0px;
+width: 58%; /*348*/
+max-width: 348px;
+}
+.imgR60 { float: right; 
+margin: 0px;
+width: 60%; /*360*/
+max-width: 360px;
+}
+.imgR61 { float: right; 
+margin: 0px;
+width: 61%; /*366*/
+max-width: 366px;
+}
+
+
